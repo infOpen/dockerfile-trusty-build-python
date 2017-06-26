@@ -11,7 +11,9 @@ RUN apt-get update && \
                         libpython3.4-dev \
                         libssl-dev \
                         libxml2-dev \
-                        libxslt1-dev
+                        libxslt1-dev \
+                        libfreetype6-dev \
+                        libpng-dev
 
 # Locale management
 RUN locale-gen en_US.UTF-8
