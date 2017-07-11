@@ -91,8 +91,6 @@ describe 'Dockerfile' do
         expect(package('libssl-dev')).to be_installed
         expect(package('libxml2-dev')).to be_installed
         expect(package('libxslt1-dev')).to be_installed
-        expect(package('libfreetype6-dev')).to be_installed
-        expect(package('libpng-dev')).to be_installed
     end
 
     describe command('locale') do
