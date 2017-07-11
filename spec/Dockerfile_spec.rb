@@ -93,7 +93,6 @@ describe 'Dockerfile' do
         expect(package('libxslt1-dev')).to be_installed
         expect(package('libfreetype6-dev')).to be_installed
         expect(package('libpng-dev')).to be_installed
-        expect(package('pkg-config')).to be_installed
     end
 
     describe command('locale') do

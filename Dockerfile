@@ -13,8 +13,7 @@ RUN apt-get update && \
                         libxml2-dev \
                         libxslt1-dev \
                         libfreetype6-dev \
-                        libpng-dev \
-                        pkg-config
+                        libpng-dev
 
 # Locale management
 RUN locale-gen en_US.UTF-8
